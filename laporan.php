@@ -8,15 +8,18 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
+
 <body>
     <div class="homepage-area"></div>
     <header>
         <div class="Cucipedia-text">
             <h1>MENU UTAMA</h1><br>
             <div class="btn-group">
-                <button onclick="location.href='data_master.php'">Data Master</button>
-                <button onclick="location.href='transaksi.php'">Transaksi</button>
-                <button onclick="location.href='home_kasir.php'">Back</button>
+                <button onclick="location.href='laporan_pembelian.php'">Laporan Pembelian</button>
+                <button onclick="location.href='laporan_penjualan.php'">Laporan Penjualan</button>
+                <button onclick="location.href='laporan_stock Barang.php'">Laporan Stock Barang</button>
+                <button onclick="location.href='index.php'">Keluar</button>
+
             </div>
         </div>
     </header>

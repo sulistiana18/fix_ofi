@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.wrapper{
+
+.wrapper {
     width: 1170px;
     margin: auto;
 }
+
 .homepage-area {
     border: 1px solid #2a3f54;
     background-position: center center;
@@ -21,12 +23,18 @@
     position: absolute;
     top: 45%;
     right: -6%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: black;
 }
 
 .Cucipedia-text h1 {
     color: rgb(27, 14, 100);
+}
+
+.Cucipedia-text p {
+    font-size: 22px;
+    color: rgb(27, 14, 100);
+    text-align: center;
 }
 
 .btn-group {
@@ -38,27 +46,27 @@
     margin-top: 20px;
     font-family: poppins;
     font-size: 22px;
-    background-color: white; 
-    border: 1px solid  #2a3f54;
-    color:  #2a3f54; 
-    padding: 15px 24px; 
-    cursor: pointer; 
-    width: 35%; 
-    display: block; 
+    background-color: white;
+    border: 1px solid #2a3f54;
+    color: #2a3f54;
+    padding: 15px 24px;
+    cursor: pointer;
+    width: 35%;
+    display: block;
     text-align: center;
-  }
+}
 
-.btn-group button:hover{
+.btn-group button:hover {
     border-color: #2a3f54;
-    background:  #2a3f54;
+    background: #2a3f54;
     transition: .9s;
     color: white
 }
 
-h5{
+h5 {
     text-align: center;
 }
 
-body{
+body {
     background-color: #8db5dd;
 }

@@ -12,7 +12,9 @@
     <div class="homepage-area"></div>
     <header>
         <div class="Cucipedia-text">
-            <h1>Mlaku Collection</h1><br>
+            <h1>Mlaku Collection</h1>
+            <p>by: Faidah Ofiana / 1910631140090</p><br>
+
             <div class="btn-group">
                 <h5>Siapakah Anda?</h5>
                 <button onclick="location.href='login_pemilik.php'">Pemilik</button>
