@@ -18,7 +18,7 @@
                 <button onclick="location.href='laporan_pembelian.php'">Laporan Pembelian</button>
                 <button onclick="location.href='laporan_penjualan.php'">Laporan Penjualan</button>
                 <button onclick="location.href='laporan_stock Barang.php'">Laporan Stock Barang</button>
-                <button onclick="location.href='index.php'">Keluar</button>
+                <button onclick="location.href='home_pemilik.php'">Kembali</button>
 
             </div>
         </div>
