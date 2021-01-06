@@ -14,16 +14,13 @@
     <form method="post" action="data_barang.php">
         <h2>Form Data Barang</h2>
         <?php include('errors.php'); ?>
-        <input type="text" maxlength="128" name="KodeBarang" placeholder="KodeBarang">
-        <input type="text" maxlength="128" name="Merek" placeholder="Merek">
-        <input type="text" maxlength="128" name="JenisBarang" placeholder="JenisBarang">
-        <input type="text" maxlength="128" name="ukuran" placeholder="ukuran">
-        <input type="text" maxlength="128" name="satuan" placeholder="satuan">
-        <input type="text" maxlength="128" name="hargabeli" placeholder="hargaBeli">
-        <input type="text" maxlength="128" name="hargaJual" placeholder="hargaJual">
+        <input type="text" maxlength="128" name="ID_Supplier" placeholder="ID Supplier">
+        <input type="text" maxlength="128" name="Nama_Supplier" placeholder="Nama Supplier">
+        <input type="text" maxlength="128" name="Alamat" placeholder="Alamat">
+        <input type="text" maxlength="128" name="Telepon" placeholder="Telepon">
 
         <button type="button" name="cancel" class="cancelbtn" onclick="location.href='tampilanawalsekali.php'">Cancel</button>
-        <button type="submit" name="register" class="btn">Create Account</button>
+        <button type="submit" name="register" class="btn">Save</button>
     </form>
 
 </body>
